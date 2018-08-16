@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers;
+package com.vtrack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers.rest;
+package com.vtrack.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.virtualpairprogrammers.Data;
-import com.virtualpairprogrammers.Position;
-import com.virtualpairprogrammers.VehicleNotFoundException;
+import com.vtrack.Data;
+import com.vtrack.Position;
+import com.vtrack.VehicleNotFoundException;
 
 @RestController
 public class PositionReportsController 
@@ -34,7 +34,7 @@ public class PositionReportsController
 			throw new RuntimeException("Problem with getting LatestReportForVehicle");
 		}*/
 		
-		
+		System.out.println("Request Received ***************");
 		try 
 		{
 			Position position = data.getLatestPositionFor(vehicleName);

@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers.MDP;
+package com.vtrack.MDP;
 
 import java.util.Map;
 
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-import com.virtualpairprogrammers.Data;
+import com.vtrack.Data;
 
 @Component
 public class MessageReceiverMDP {
